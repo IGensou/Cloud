@@ -33,7 +33,7 @@ jobs:
         uses: docker/login-action@v3
         with:
           registry: ghcr.io
-          username: ${{ github.IGensou }}
+          username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_CLOUD }}
 
 
