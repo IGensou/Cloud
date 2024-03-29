@@ -7,3 +7,4 @@ app = Flask(__name__)
 @app.route("/")
 def index_page():
     return "Hello, World!"
+
